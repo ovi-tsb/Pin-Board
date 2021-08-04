@@ -27,6 +27,7 @@ gem 'acts_as_votable', '~> 0.11.1'
 gem 'paperclip', '~> 6.1'
 gem 'mimemagic', git: 'https://github.com/mimemagicrb/mimemagic', ref: 'a4b038c6c1b9d76dac33d5711d28aaa9b4c42c66'
 gem "aws-sdk", '< 2.0'
+gem "aws-sdk-s3", require: false
 gem 'actionpack', '~> 6.1', '= 6.1.4'
 
 group :development, :test do
